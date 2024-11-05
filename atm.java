@@ -114,8 +114,7 @@ import java.util.ArrayList;
         String userId = scanner.nextLine();
         System.out.print("Enter PIN: ");
         String pin = scanner.nextLine();
-        // 
-Validate user credentials
+        // Validate user credentials
         if (userId.equals(userAccount.getUserId()) && pin.equals(userAccount.getPin())) {
  ATMService atmService = new ATMService(userAccount);
             boolean exit = false;
